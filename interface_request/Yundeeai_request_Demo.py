@@ -1,14 +1,15 @@
 # coding=utf8
-import requests, sys, os, ddt
+import requests, sys
 from logs import loginfo
 from Unit_tools import day_type
-from Unit_tools import excel_red
+from Unit_tools.DDT_xlsx import excel_red
+
 log = loginfo.log().logger
 
 
 def login_AI_token():
     # 登录
-    url = excel_red.get_data_from_excel('login.xlsx')[0]['ip']+excel_red.get_data_from_excel('login.xlsx')[0]['interfase']
+    url = excel_red.get_data_from_excel('login.xlsx')[0]['ip'] + excel_red.get_data_from_excel('login.xlsx')[0]['interfase']
     data = excel_red.get_data_from_excel('login.xlsx')[0]['data']
     headers = excel_red.get_data_from_excel('login.xlsx')[0]['headers']
     try:

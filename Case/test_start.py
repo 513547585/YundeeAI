@@ -26,10 +26,11 @@ class test_start(unittest.TestCase, base):
             assert request.json()['code'] == data["assert"]
             log.info(str(day_type.Now_time_ms()) + "登录成功")
             log.info("token值为  :" + str(request.json()['data']['access_token']))
+
             return request.json()['data']['access_token']
             print("测试通过")
         except:
-            log.info(str(day_type.Now_time_ms()) + "登录失败："+str(request.json()))
+            log.info(str(day_type.Now_time_ms()) + "用例执行失败："+str(request.json()))
 
     def tearDown(self):
         ...
