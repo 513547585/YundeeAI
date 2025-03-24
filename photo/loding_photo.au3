@@ -1,0 +1,5 @@
+WinWait("打开","",5)
+ControlFocus("打开","","Edit1")
+ControlSetText("打开","","Edit1","70.jpg")
+Sleep(2000)
+ControlClick("打开","","Button1")
