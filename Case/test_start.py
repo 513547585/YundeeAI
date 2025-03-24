@@ -28,7 +28,7 @@ class test_start(unittest.TestCase, base):
             log.info("token值为  :" + str(request.json()['data']['access_token']))
 
             return request.json()['data']['access_token']
-            print("测试通过")
+            print("测试通过44000000000000000000000")
         except:
             log.info(str(day_type.Now_time_ms()) + "用例执行失败："+str(request.json()))
 

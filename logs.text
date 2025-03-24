@@ -116,3 +116,6 @@ token值为  :eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxMDYsInVzZXJfa2V5IjoiZTUzMjFkZTM
 2025-03-24 11:27:43.530051登录成功
 token值为  :eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxMDYsInVzZXJfa2V5IjoiMzFlNTlmZDUtOWUwYi00NzRkLTlmNGYtYTI4YTM4MjNmZDdlIiwidXNlcm5hbWUiOiIxNTcyNzEyNTgyMiJ9.Q-AW_FpTX5HprZj8pGiAA0iMviqg1I2i16ZAiPDgH-lgh-bS-asPR2v5hnB-1ctM73lCLKQRyIJXeX1i1xUvBw
 2025-03-24 11:27:43.733119用例执行失败：{'msg': '用户不存在/密码错误', 'code': 500}
+2025-03-24 13:35:27.039936登录成功
+token值为  :eyJhbGciOiJIUzUxMiJ9.eyJ1c2VyX2lkIjoxMDYsInVzZXJfa2V5IjoiMTNhYjgyNmEtOTM2Ni00OWUzLTk0OWQtNWFhMzdkMDFmMDFjIiwidXNlcm5hbWUiOiIxNTcyNzEyNTgyMiJ9.cfh3NUvj4vT-DuAq5-2EEMGOO7unNc3cIXocISl7e0h5e2PkSN6z_iLBfzhTodJ-PqiHSsA9MaHqOdQwSgkJ3g
+2025-03-24 13:35:27.227205用例执行失败：{'msg': '用户不存在/密码错误', 'code': 500}
